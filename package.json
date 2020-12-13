@@ -1,0 +1,27 @@
+{
+  "name": "dscwow",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Digital-god/DSCWOW_MYSURUTOURISM.git"
+  },
+  "author": "Aviral Dhodi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Digital-god/DSCWOW_MYSURUTOURISM/issues"
+  },
+  "homepage": "https://github.com/Digital-god/DSCWOW_MYSURUTOURISM#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1",
+    "node": "^15.3.0"
+  }
+}
