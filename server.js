@@ -4,7 +4,7 @@ const app = express();
 const port = 3000;
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
-app.set('view engine', 'ejs');
+app.set('view engine', 'home.ejs');
 //setup public folder
 app.use(express.static('./public'));
 app.get('/',function (req, res) {
